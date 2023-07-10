@@ -35,6 +35,9 @@ mongoose
 
 app.get("/films", filmControllor.getAllFilms);
 app.post("/films", filmControllor.createFilm);
+app.get("/films/:naslov", filmControllor.getFilm);
+app.patch("/films/:id", filmControllor.updateFilm);
+app.delete("/films/:id", filmControllor.deleteFilm);
 
 // slusanje na server
 app.listen(10000, () => {
