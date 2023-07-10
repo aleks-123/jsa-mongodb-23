@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 // povikuvame kontrolor
 const filmControllor = require("./controllers/filmController");
 
-// inicijaliziravme expreess aplikacija
+// inicijaliziravme expreess aplikacija ...
 const app = express();
 
 // se parsiraat informaciite sto gi prakjame od forma od frontend
